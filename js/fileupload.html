@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_blank">
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Life Game 2017 Bay Area</title>
+</head>
+
+<body>
+<!-- Add the jQuery library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">Life Game 2017 Bay Area</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="sass.html">Registration</a></li>
+            <li><a href="badges.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h3 id="main-heading">Upload Photo</h3>
+
+<div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="file-field input-field">
+            <div class="btn">
+                <span>File</span>
+                <input id="file" type="file">
+            </div>
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text">
+            </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" name="action" onclick="submitForm(); return false;">
+            Submit
+            <i class="material-icons right">send</i>
+        </button>
+
+    </form>
+    <!-- Show Progress -->
+    <div id="progress"></div>
+</div>
+</body>
+<script>
+    var file,
+            reader = new FileReader();
+
+    // Upload the file to Google Drive
+    reader.onloadend = function (e) {
+        full_name = $('input#first_name').val() + $('input#last_name').val()
+        email = $('input#email').val()
+        google.script.run
+                .withSuccessHandler(showMessage("Uploaded file " + file.name))
+                .uploadFileToGoogleDrive(
+                        e.target.result, file.name,
+                        full_name,
+                        email
+                );
+    };
+
+    function submitForm() {
+        file = $('#file')[0].files[0];
+        showMessage("Uploading file...");
+        reader.readAsDataURL(file);
+    }
+
+    function showMessage(e) {
+        $('#progress').html(e);
+    }
+</script>
+</html>
