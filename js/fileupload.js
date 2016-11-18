@@ -7,7 +7,7 @@
 function doGet(e) {
   return HtmlService.createTemplateFromFile('fileupload.html')
   .evaluate()
-  .setTitle('LIFEgame&trade; 2017 Bay Area')
+  .setTitle('LIFEgame 2017 Bay Area')
 }
 
 function uploadFileToGoogleDrive(data, file, name, email) {
