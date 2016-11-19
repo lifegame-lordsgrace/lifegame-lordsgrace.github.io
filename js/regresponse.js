@@ -10,10 +10,13 @@
     var subject = "Registration Successful";
 
     // This will show up as the sender's name
-    var sendername = "Life Game 2017 Bay Area";
+    var sendername = "LIFEgame 2017 Bay Area";
 
     // This is the body of the registration confirmation message
-    var message = "Thank you for registering for Life Game 2017 Bay Area.<br>We will be in touch.<br><br>";
+    var message = "Thank you for registering for LIFEgame&trade; 2017 Bay Area.<br><br>";
+
+    message += "Visit <a href='https://lifegame-lordsgrace.github.io/'>LIFEgame&trade;</a> to complete your registration. The next steps are to upload photo and make payment, for which the instructions can be found on the <a href='https://lifegame-lordsgrace.github.io/register'>Registration</a> page. <br><br>"
+
     message += "Your form responses were:<br><br>";
 
     // response is a FormResponse - see https://developers.google.com/apps-script/reference/forms/form-response
