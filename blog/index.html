@@ -3,10 +3,10 @@ layout: material
 title: LIFEgame&trade; Bay Area Blog
 ---
 <h3>{{ page.title }}</h3>
-<div class="collection">
+<ul class="collection">
 
   {% for post in site.posts %}
   <li class="collection-item"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><div class="secondary-content">{{ post.date | date_to_string }}</div></li>
   {% endfor %}
 
-</div>
+</ul>
