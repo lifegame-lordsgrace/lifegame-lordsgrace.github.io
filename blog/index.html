@@ -6,7 +6,7 @@ title: LIFEgame&trade; Bay Area Blog
 <ul class="collection">
 
   {% for post in site.posts %}
-  <li class="collection-item"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><div class="secondary-content">{{ post.date | date_to_string }}</div></li>
+  <li class="collection-item"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><div class="secondary-content">{{ post.date | date: "%b %-d %Y" }}</div></li>
   {% endfor %}
 
 </ul>
