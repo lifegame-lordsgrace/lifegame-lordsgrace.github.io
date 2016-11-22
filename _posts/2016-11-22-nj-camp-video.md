@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Jersey 2016 LIFEgame&trade; Video"
+title: "LIFEgame&trade; 2016 New Jersey Video"
 date: 2016-11-22
 ---
 
