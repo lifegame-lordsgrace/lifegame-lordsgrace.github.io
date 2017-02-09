@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "一次改变生命的“游戏” 童芙萱 (小麦家笔记)"
+title: "一次改变生命的“游戏”"
 date: 2017-02-05
 ---
 
 <div class="container">
   Adapted from <a href="http://mp.weixin.qq.com/s/HnHQ2q2Ye1QpujlSLYSW6w">一次改变生命的“游戏”, 童芙萱 (小麦家笔记)</a>
   <p/>
-  <span class="red-text">
-    2016年10月LifeGame在北美New Jersey正式拉开了帷幕. 随同教会另外两名弟兄一起, 我们从加州BayArea横跨北美大陆抵达东部参加这场“游戏”.
-  </span>
+  2016年10月LifeGame在北美New Jersey正式拉开了帷幕. 随同教会另外两名弟兄一起, 我们从加州BayArea横跨北美大陆抵达东部参加这场“游戏”.
   <p/>
   <span class="green-text flow-text">
     LifeGame是由Life Impact Ministries开发的真人游戏。这个游戏在过去30年中影响了几万人的生命。参与者将在三天两夜的时间里体验从15岁一直到生命结束的完整人生。参与游戏的所有人将进入游戏设定的城市，在这个城市中，你可能家财万贯，也可能穷困潦倒，你可以靠自己的努力改变人生，也可以任凭命运的安排。更重要的是，在这个过程中，你将会看到人生的意义。现实中，神对每个人的旨意有所不同，神对你真实人生的旨意又是什么呢
