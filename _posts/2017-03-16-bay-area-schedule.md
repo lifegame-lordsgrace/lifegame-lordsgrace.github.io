@@ -79,7 +79,6 @@ date: 2017-03-16
           <td>Session #4</td>
           <td>Worship Center</td>
         </tr>
-      </tr>
     </tbody>
   </table>
 </div>
@@ -120,7 +119,6 @@ date: 2017-03-16
         <td>Volunteer Clean-up </td>
         <td>Worship Center</td>
       </tr>
-    </tr>
   </tbody>
 </table>
 </div>
