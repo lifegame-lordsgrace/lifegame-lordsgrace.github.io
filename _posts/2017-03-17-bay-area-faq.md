@@ -54,11 +54,11 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
   <h5>Contact Information 联系方式</h5>
   <div class="row">
     <div class="col s12 m6">
-    <div class="card small horizontal">
+    <div class="card blue-grey darken-1 small horizontal">
         <div class="card-image">
               <img src="/blog/WeChat@MS-032017.jpeg">
         </div>
-        <div class="card-content">
+        <div class="card-content white-text">
           <span class="card-title">WeChat QR Code 微信群二维码</span>
           <p>Phone 电话: TBD</p>
           <p><a href="mailto:lifegamebayarea2017@googlegroups.com">Group E-mail 营会集体电邮</a></p>
