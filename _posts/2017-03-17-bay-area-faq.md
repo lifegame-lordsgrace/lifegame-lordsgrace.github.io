@@ -56,7 +56,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
     <div class="col s12 m6">
     <div class="card blue-grey darken-1 small">
         <div class="card-image">
-              <img src="/blog/WeChat@MS-032017.jpeg">
+              <img class="materialboxed" width="100" src="/blog/WeChat@MS-032017.jpeg">
         </div>
         <div class="card-content white-text">
           <span class="card-title">WeChat QR Code 微信群二维码</span>
