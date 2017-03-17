@@ -52,10 +52,14 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
+        <div class="card-image">
+              <img src="/blog/WeChat@MS-032017.jpeg">
+              <span class="card-title">WeChat 微信群</span>
+        </div>
         <div class="card-content white-text">
           <span class="card-title">Contact Information 联系方式</span>
           <p>Phone 电话: TBD</p>
-          <p>Group E-mail 营会集体电邮: <a href="mailto:lifegamebayarea2017@googlegroups.com">lifegamebayarea2017@googlegroups.com</a></p>
+          <p><a href="mailto:lifegamebayarea2017@googlegroups.com">Group E-mail 营会集体电邮</a></p>
         </div>
       </div>
     </div>
