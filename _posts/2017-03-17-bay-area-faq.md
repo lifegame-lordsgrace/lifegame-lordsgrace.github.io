@@ -36,8 +36,6 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
       </div>
     </div>
   </div>
-</div>
-<div class="section">
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
@@ -49,6 +47,9 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
       </div>
     </div>
   </div>
+</div>
+<div class="section">
+  <h5>Contact Information 联系方式</h5>
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
@@ -57,7 +58,6 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
               <span class="card-title">WeChat 微信群</span>
         </div>
         <div class="card-content white-text">
-          <span class="card-title">Contact Information 联系方式</span>
           <p>Phone 电话: TBD</p>
           <p><a href="mailto:lifegamebayarea2017@googlegroups.com">Group E-mail 营会集体电邮</a></p>
         </div>
