@@ -8,7 +8,7 @@ date: 2017-03-17
   <div class="col s12 m6">
     <div class="card">
       <div class="card-image">
-        <img src="MS-FacilityMap.png">
+        <img src="/blog/MS-FacilityMap.png">
         <span class="card-title">Card Title</span>
       </div>
       <div class="card-content">
