@@ -54,7 +54,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
   <h5>Contact Information 联系方式</h5>
   <div class="row">
     <div class="col s12 m6">
-    <div class="card blue-grey darken-1 small horizontal">
+    <div class="card blue-grey darken-1 small">
         <div class="card-image">
               <img src="/blog/WeChat@MS-032017.jpeg">
         </div>
