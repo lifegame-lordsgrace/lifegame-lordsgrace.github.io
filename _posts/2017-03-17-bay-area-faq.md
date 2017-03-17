@@ -18,27 +18,23 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
           <p>GPS address 营地地址: 1050 Lockhart Gulch Rd, Scotts Valley, CA 95066</p>
         </div>
         <div class="card-action">
-          <p><a href="http://www.missionsprings.com/">Mission Springs Christian Conference Center 营地网址</a></p>
+          <p><a href="http://www.missionsprings.com/">Mission Springs Christian Conference Center 营区网址</a></p>
           <p><a href="http://www.missionsprings.com/sites/default/files/MSFlatsmap_trailmap_combined.pdf">Conference Center Map 营区地图</a></p>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="section">
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">What to bring to the camp 携带物品</span>
+          <span class="card-title">What to bring 携带物品</span>
           <p>Personal hygiene items like toothbrush, toothpaste, shampoo</p>
           <p>盥洗用具(牙刷, 牙膏，洗发水等等)</p>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="section">
   <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
@@ -65,8 +61,8 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
           <img src="/blog/MS-FacilityMap.png">
         </div>
         <div class="card-content">
-          <p>Meals will be served in Dining Room. Most of campers will stay in Laurel Lodge. All the camp sessions will be held in Worship Center.</p>
-          <p>营会将在Dining Room用餐。大多数营会会员将住在Laurel Lodge。所有营会室内活动将在Worship Center进行。</p>
+          <p>Meals will be served in Dining Room（2）. Most of campers will stay in Laurel Lodge（3）. All the camp sessions will be held in Worship Center（1）.</p>
+          <p>营会将在Dining Room (图标2) 用餐。大多数营会会员将住在Laurel Lodge （图标3）。所有营会室内活动将在Worship Center （图标1）进行。</p>
         </div>
         <div class="card-action">
           <a href="http://www.missionsprings.com/facilities">Mission Springs Facilities 查看营会设施详情</a>
