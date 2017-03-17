@@ -21,6 +21,8 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
         </div>
       </div>
     </div>
+  </div>
+  <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
@@ -46,6 +48,8 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
         </div>
       </div>
     </div>
+  </div>
+  <div class="row">
     <div class="col s12 m6">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
