@@ -56,7 +56,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
     <div class="col s12 m6">
     <div class="card blue-grey darken-1 small horizontal">
         <div class="card-image">
-              <img src="blog/WeChat@MS-032017.jpeg">
+              <img src="/blog/WeChat@MS-032017.jpeg">
         </div>
         <div class="card-content white-text">
           <span class="card-title">WeChat 微信群</span>
