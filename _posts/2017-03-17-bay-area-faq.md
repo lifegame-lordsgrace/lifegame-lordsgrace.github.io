@@ -30,8 +30,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
           <p>LIFEgame 是一个三天两夜完整的营会,谢绝迟到和早退</p>
           <p>请遵守用餐时间准时到餐厅(不然就吃不到啦)</p>
           <p>请勿在营地内吸烟, 使用非法药物等 (注意身体呀)</p>
-          <p>请勿离开营地, 若有急事请通知 TBD</p>
-          <p>如果有紧急身体不适, 女生请联系:TBD, 男生请联系:TBD</p>
+          <p>请勿离开营地</p>
         </div>
       </div>
     </div>
@@ -50,24 +49,6 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
 </div>
 
 <div class="divider"></div>
-<div class="section">
-  <h5>Contact Information 联系方式</h5>
-  <div class="row">
-    <div class="col s12 m6">
-    <div class="card blue-grey darken-1 small">
-        <div class="card-image">
-              <img class="materialboxed" width="100" src="/blog/WeChat@MS-032017.jpeg">
-        </div>
-        <div class="card-content white-text">
-          <span class="card-title">WeChat QR Code 微信群二维码</span>
-          <p>Phone 电话: TBD</p>
-          <p><a href="mailto:lifegamebayarea2017@googlegroups.com">Group E-mail 营会集体电邮</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="section">
   <h5>Facilities 营会设施</h5>
   <div class="row">
