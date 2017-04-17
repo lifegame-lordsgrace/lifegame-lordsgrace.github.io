@@ -14,7 +14,7 @@ date: 2017-04-02
   <img class="materialboxed responsive-img" data-caption="Group picture at the conclusion, outside Worship Center"  src="/blog/MS-March2017-GroupPic.jpeg"/>
   <p/>
   <span class="green-text flow-text">
-    更重要的是，愿主继续使用LIFEgame&trade;，祝福和带领每一个参与者。现实中，神对每个人的旨意有所不同，愿上帝的旨意在每个人的生命中彰显！
+    愿主继续使用LIFEgame&trade;，祝福和带领每一个参与者。现实中，神对每个人的旨意有所不同，愿上帝的旨意在每个人的生命中彰显！
   </span>
   <p/>
 </div>
