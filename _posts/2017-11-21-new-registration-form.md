@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LIFEgame&trade; 2018 Bay Area Camp Registration Form"
-date: 2017-04-02
+date: 2017-11-21
 ---
 
 Dear LIFEgame volunteers, we are testing the new registration form for 2018 Bay Area Camp.
