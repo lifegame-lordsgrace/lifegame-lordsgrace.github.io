@@ -8,7 +8,13 @@ Dear LIFEgame volunteers, we are testing the new registration form for 2018 Bay 
 
 <div class="divider"></div>
 
+
 <div class="container">
-  <iframe src="https://services.cognitoforms.com/f/HE46iBWGGkCBiQS8KocMSA?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="690" width="100%"></iframe>
-  <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+  <!-- <iframe src="https://services.cognitoforms.com/f/HE46iBWGGkCBiQS8KocMSA?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="690" width="100%"></iframe>
+  <script src="https://services.cognitoforms.com/scripts/embed.js"></script> -->
+
+  <div class="cognito">
+    <script src="https://services.cognitoforms.com/s/HE46iBWGGkCBiQS8KocMSA"></script>
+    <script>Cognito.load("forms", { id: "1" });</script>
+  </div>
 </div>
