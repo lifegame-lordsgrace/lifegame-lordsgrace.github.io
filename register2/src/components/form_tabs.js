@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 
-import {Tabs, Tab} from 'material-ui/Tabs';
+import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
+
+import PersonalInfoForm from './personal_info_form';
+import PhotoUploadForm from './photo_upload_form';
 
 class FormTabs extends Component {
 
@@ -37,11 +40,10 @@ class FormTabs extends Component {
           <div>
             Swipe to see the next slide
           </div>
+          <PersonalInfoForm />
+          <PhotoUploadForm />
           <div>
-            slide n°2
-          </div>
-          <div>
-            slide n°3
+            slide n°4
           </div>
         </SwipeableViews>
       </div>
