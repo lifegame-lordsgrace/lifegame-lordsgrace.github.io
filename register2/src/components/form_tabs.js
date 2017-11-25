@@ -5,6 +5,7 @@ import SwipeableViews from 'react-swipeable-views';
 
 import PersonalInfoForm from './personal_info_form';
 import PhotoUploadForm from './photo_upload_form';
+import PaymentForm from './payment_form';
 
 class FormTabs extends Component {
 
@@ -42,9 +43,7 @@ class FormTabs extends Component {
           </div>
           <PersonalInfoForm />
           <PhotoUploadForm />
-          <div>
-            slide n°4
-          </div>
+          <PaymentForm />
         </SwipeableViews>
       </div>
     );
