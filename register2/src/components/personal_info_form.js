@@ -13,6 +13,9 @@ class PersonalInfoForm extends Component {
             <TextField
               id="chineseName"
               floatingLabelText="中文姓名*"
+              value={this.props.form.chineseName}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateChineseName(newValue);}}
             />
             <TextField
               id="englishFirstName"

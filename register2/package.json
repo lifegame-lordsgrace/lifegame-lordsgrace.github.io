@@ -6,6 +6,7 @@
     "material-ui": "^0.19.4",
     "react": "16.1.1",
     "react-dom": "16.1.1",
+    "react-redux": "5.0.6",
     "react-scripts": "1.0.17",
     "react-square-hosted-fields": "1.2.4",
     "react-swipeable-views": "0.12.10",

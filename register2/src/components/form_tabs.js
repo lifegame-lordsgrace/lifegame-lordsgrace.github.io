@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
@@ -41,14 +42,21 @@ class FormTabs extends Component {
           <div>
             Swipe to see the next slide
           </div>
-          <PersonalInfoForm />
+          <PersonalInfoForm
+            form={this.props.form}
+            onUpdateChineseName={(newName) =>
+              this.props.onUpdateChineseName(newName)}/>
           <PhotoUploadForm />
           <PaymentForm />
         </SwipeableViews>
       </div>
     );
   }
+}
 
+FormTabs.propTypes = {
+  form: PropTypes.object,
+  onUpdateChineseName: PropTypes.func,
 }
 
 export default FormTabs;
