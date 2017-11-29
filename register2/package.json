@@ -1,22 +1,28 @@
 {
-  "name": "register2",
+  "name": "register2-server",
   "version": "0.0.1",
+  "engines": {
+    "node": "6.11.1"
+  },
   "private": true,
   "dependencies": {
-    "material-ui": "^0.19.4",
-    "react": "16.1.1",
-    "react-dom": "16.1.1",
-    "react-redux": "5.0.6",
-    "react-scripts": "1.0.17",
-    "react-square-hosted-fields": "1.2.4",
-    "react-swipeable-views": "0.12.10",
-    "redux": "3.7.2",
-    "redux-thunk": "2.2.0"
+    "babel-core": "6.14.0",
+    "body-parser": "1.17.2",
+    "express": "4.13.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "concurrently \"nf start\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "node start-client.js",
+    "dev": "echo \"This command has been deprecated. Use 'npm start'\" && exit 1",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "3.1.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
   }
 }
