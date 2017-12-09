@@ -12,7 +12,7 @@ Dear LIFEgame volunteers, please help us to test the new registration form for 2
   <div class="col s12">
     <ul class="tabs">
       <li class="tab col s3"><a class="active" href="#campschedule">Schedule</a></li>
-      <li class="tab col s3"><a href="#camplocation">Camp Location</a></li>
+      <li class="tab col s3"><a href="#camplocation">Location</a></li>
       <li class="tab col s3"><a href="#campprice">Price</a></li>
     </ul>
   </div>
@@ -45,9 +45,9 @@ Dear LIFEgame volunteers, please help us to test the new registration form for 2
       </div>
     </div>
   </div>
-  <div id="campprice" class="col s8">
+  <div id="campprice" class="col s10">
     <div class="row valign-wrapper">
-        <div class="col s8">
+        <div class="col s10">
           <ul class="collection">
             <li class="collection-item"><div>Dorm Room<a class="secondary-content">$185</a></div></li>
             <li class="collection-item"><div>Double Room<a class="secondary-content">$250</a></div></li>
