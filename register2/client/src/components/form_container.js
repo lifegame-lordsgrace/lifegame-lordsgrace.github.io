@@ -32,7 +32,8 @@ class FormContainer extends Component {
           onUpdateMarriageStatus={(marriageStatus) =>
             {this.props.formActions.updateMarriageStatus(marriageStatus);}}
           onUpdateReligionStatus={(religionStatus) =>
-            {this.props.formActions.updateReligionStatus(religionStatus)}}
+            {this.props.formActions.updateReligionStatus(religionStatus);}}
+          onSumbitForm={() => {this.props.formActiosn.onSumbitForm();}}
         />
       </div>
         );
@@ -41,7 +42,7 @@ class FormContainer extends Component {
 
 function mapStateToProps(state, prop) {
   return {
-    form: state.form,
+    form: state.form.inputs,
   };
 }
 

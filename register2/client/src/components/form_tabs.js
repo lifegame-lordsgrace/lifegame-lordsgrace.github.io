@@ -5,7 +5,6 @@ import { Tabs, Tab } from 'material-ui/Tabs';
 import SwipeableViews from 'react-swipeable-views';
 
 import PersonalInfoForm from './personal_info_form';
-import PhotoUploadForm from './photo_upload_form';
 import PaymentForm from './payment_form';
 
 class FormTabs extends Component {
@@ -32,8 +31,7 @@ class FormTabs extends Component {
         >
           <Tab label="Camp Info" value={0} />
           <Tab label="Personal Info" value={1} />
-          <Tab label="Photo Upload" value={2} />
-          <Tab label="Payment" value={3} />
+          <Tab label="Payment" value={2} />
         </Tabs>
         <SwipeableViews
           index={this.state.slideIndex}
@@ -57,7 +55,6 @@ class FormTabs extends Component {
             onUpdateReligionStatus={(religionStatus) =>
               {this.props.onUpdateReligionStatus(religionStatus);}}
           />
-          <PhotoUploadForm />
           <PaymentForm />
         </SwipeableViews>
       </div>

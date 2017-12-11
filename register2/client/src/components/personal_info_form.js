@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 import MenuItem from 'material-ui/MenuItem';
 import SelectField from 'material-ui/SelectField';
 import TextField from 'material-ui/TextField';
+import RaisedButton from 'material-ui/RaisedButton';
+
+import PhotoUploadForm from './photo_upload_form';
 
 class PersonalInfoForm extends Component {
 
@@ -74,6 +77,11 @@ class PersonalInfoForm extends Component {
               <MenuItem value={0} primaryText="慕道友" />
             </SelectField>
           <h4>联络方式 Contact infomation</h4>
+          <PhotoUploadForm />
+          <RaisedButton
+            label="submit"
+            primary={true}
+            onClick={ (event) => {this.props.onSubmitForm()} }/>
         </div>
         );
   }
@@ -81,6 +89,13 @@ class PersonalInfoForm extends Component {
 
 PersonalInfoForm.propTypes = {
   form: PropTypes.object,
+  onUpdateChineseName: PropTypes.func,
+  onUpdateEnglishFirstName: PropTypes.func,
+  onUpdateEnglishLastName: PropTypes.func,
+  onUpdateAge: PropTypes.func,
+  onUpdateGender: PropTypes.func,
+  onUpdateReligionStatus: PropTypes.func,
+  onSubmitForm: PropTypes.func,
 }
 
 export default PersonalInfoForm;
