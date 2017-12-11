@@ -9,9 +9,17 @@ const DEFAULT_STATE = {
     age: null,
     marriageStatus: null,
     religionStatus: null,
-  }
+  },
+  errors: {
+    chineseNameError: "",
+    englishFirstNameError: "",
+    englishLastNameError: "",
+    genderError: "",
+    ageError: "",
+    marrigeStatusError: "",
+    religionStatusError: "",
+  },
 };
-
 
 export default(state = DEFAULT_STATE, payload) => {
   switch(payload.type) {

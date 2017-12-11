@@ -33,7 +33,7 @@ class FormContainer extends Component {
             {this.props.formActions.updateMarriageStatus(marriageStatus);}}
           onUpdateReligionStatus={(religionStatus) =>
             {this.props.formActions.updateReligionStatus(religionStatus);}}
-          onSumbitForm={() => {this.props.formActiosn.onSumbitForm();}}
+          onSubmitForm={() => {this.props.formActions.submitForm();}}
         />
       </div>
         );

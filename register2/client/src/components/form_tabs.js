@@ -54,6 +54,7 @@ class FormTabs extends Component {
               {this.props.onUpdateMarriageStatus(marriageStatus);}}
             onUpdateReligionStatus={(religionStatus) =>
               {this.props.onUpdateReligionStatus(religionStatus);}}
+            onSubmitForm={() => {this.props.onSubmitForm();}}
           />
           <PaymentForm />
         </SwipeableViews>
@@ -71,6 +72,7 @@ FormTabs.propTypes = {
   onUpdateAge: PropTypes.func,
   onUpdateMarriageStatus: PropTypes.func,
   onUpdateReligionStatus: PropTypes.func,
+  onSubmitForm: PropTypes.func,
 }
 
 export default FormTabs;
