@@ -73,10 +73,9 @@ app
   npm start
   ```
 
-## Deploy (TODO: not updated yet since I added server code. DO NOT USE THIS
-STEP TO DEPLOY FOR NOW!)
+## Deploy
 
   ```
-  # in register2 directory
+  # IMPORTANT! in register2 directory
   make deploy
   ```
