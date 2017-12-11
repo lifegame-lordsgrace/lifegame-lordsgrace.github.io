@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import MenuItem from 'material-ui/MenuItem';
 import SelectField from 'material-ui/SelectField';
@@ -20,19 +21,33 @@ class PersonalInfoForm extends Component {
             <TextField
               id="englishFirstName"
               floatingLabelText="English First Name *"
+              value={this.props.form.englishFirstName}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateEnglishFirstName(newValue);}}
             />
             <TextField
               id="englishLastName"
               floatingLabelText="English Last Name *"
+              value={this.props.form.englishLastName}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateEnglishLastName(newValue);}}
             />
             <SelectField
+              id="gender"
               floatingLabelText="Gender"
+              value={this.props.form.gender}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateGender(newValue)}}
             >
-              <MenuItem value={0} primaryText="男 Male" />
-              <MenuItem value={1} primaryText="女 Female" />
+              <MenuItem value={0} key={0} primaryText="男 Male" />
+              <MenuItem value={1} key={1} primaryText="女 Female" />
             </SelectField>
             <SelectField
+              id="age"
               floatingLabelText="年龄 Age(18岁以下不能参加) *"
+              value={this.props.form.age}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateAge(newValue)}}
             >
               <MenuItem value={0} primaryText="18-20" />
               <MenuItem value={1} primaryText="21-30" />
@@ -43,12 +58,18 @@ class PersonalInfoForm extends Component {
             </SelectField>
             <SelectField
               floatingLabelText="婚姻情况 Marriage Status *"
+              value={this.props.form.marriageStatus}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateMarriageStatus(newValue)}}
             >
               <MenuItem value={0} primaryText="单身 Single" />
               <MenuItem value={1} primaryText="已婚 Married" />
             </SelectField>
             <SelectField
               floatingLabelText="信仰状况 Religious Belief *"
+              value={this.props.form.religionStatus}
+              onChange={(event, newValue) =>
+                {this.props.onUpdateReligionStatus(newValue)}}
             >
               <MenuItem value={0} primaryText="慕道友" />
             </SelectField>
@@ -56,6 +77,10 @@ class PersonalInfoForm extends Component {
         </div>
         );
   }
+}
+
+PersonalInfoForm.propTypes = {
+  form: PropTypes.object,
 }
 
 export default PersonalInfoForm;

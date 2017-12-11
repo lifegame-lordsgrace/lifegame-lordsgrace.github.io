@@ -45,7 +45,18 @@ class FormTabs extends Component {
           <PersonalInfoForm
             form={this.props.form}
             onUpdateChineseName={(newName) =>
-              this.props.onUpdateChineseName(newName)}/>
+              this.props.onUpdateChineseName(newName)}
+            onUpdateEnglishLastName={(newName) =>
+              this.props.onUpdateEnglishLastName(newName)}
+            onUpdateEnglishFirstName={(newName) =>
+              {this.props.onUpdateEnglishFirstName(newName)}}
+            onUpdateGender={(gender) => {this.props.onUpdateGender(gender);}}
+            onUpdateAge={(age) => {this.props.onUpdateAge(age);}}
+            onUpdateMarriageStatus={(marriageStatus) =>
+              {this.props.onUpdateMarriageStatus(marriageStatus);}}
+            onUpdateReligionStatus={(religionStatus) =>
+              {this.props.onUpdateReligionStatus(religionStatus);}}
+          />
           <PhotoUploadForm />
           <PaymentForm />
         </SwipeableViews>
@@ -57,6 +68,12 @@ class FormTabs extends Component {
 FormTabs.propTypes = {
   form: PropTypes.object,
   onUpdateChineseName: PropTypes.func,
+  onUpdateEnglishFirstName: PropTypes.func,
+  onUpdateEnglishLastName: PropTypes.func,
+  onUpdateGender: PropTypes.func,
+  onUpdateAge: PropTypes.func,
+  onUpdateMarriageStatus: PropTypes.func,
+  onUpdateReligionStatus: PropTypes.func,
 }
 
 export default FormTabs;

@@ -22,6 +22,17 @@ class FormContainer extends Component {
           form={this.props.form}
           onUpdateChineseName={(newName) =>
             {this.props.formActions.updateChineseName(newName);}}
+          onUpdateEnglishFirstName={(newName) =>
+            {this.props.formActions.updateEnglishFirstName(newName);}}
+          onUpdateEnglishLastName={(newName) =>
+            {this.props.formActions.updateEnglishLastName(newName);}}
+          onUpdateGender={(newGender) =>
+            {this.props.formActions.updateGender(newGender);}}
+          onUpdateAge={(newAge) => {this.props.formActions.updateAge(newAge);}}
+          onUpdateMarriageStatus={(marriageStatus) =>
+            {this.props.formActions.updateMarriageStatus(marriageStatus);}}
+          onUpdateReligionStatus={(religionStatus) =>
+            {this.props.formActions.updateReligionStatus(religionStatus)}}
         />
       </div>
         );
