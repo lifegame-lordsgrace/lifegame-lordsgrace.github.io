@@ -3,7 +3,7 @@
 ## File Structure
 
 * There are technically two apps in this directory. A Node server and a react
-app
+app.
 * Everything inside of `client` folder belongs to the react/redux app.
 * Everything outside of `client` folder belongs to the Node server.
 
@@ -44,6 +44,7 @@ app
  reload your change when you save your edits.
 
 ### Server only
+* Make sure your current directory is `register2/`
 
 * Install dependencies:
 
@@ -57,17 +58,17 @@ app
   nf start
   ```
 
-  Here we use foreman to start the server so that it automatically loads .env
+  Here we use [foreman](https://github.com/strongloop/node-foreman) to start the server so that it automatically loads `.env` file for
   configurations.
 
-  This will start a server at `localhost:5000`. You can use any http client to
-  test the api by sending GET/POST request.
+  This command will start a server at `localhost:5000`. You can use any http client to
+  test the api by sending GET/POST requests.
 
-  You have to restart the server every time you make a change.
+  Note that you have to restart the server every time you make a change.
 
 ### Start both frontend and backend servers (assuming your current directory is `register2/`)
 
-* Make sure the dependencies are installed.
+* Make sure the dependencies are installed for both frontend and backend.
 
   ```
   npm start
@@ -75,7 +76,12 @@ app
 
 ## Deploy
 
+  * You need to update your git configuration to be able to push to the Heroke remote.
+
   ```
-  # IMPORTANT! in register2 directory
-  make deploy
+  ~/R/l/register2 ❯❯❯ git remote -v
+heroku	https://git.heroku.com/life-game-registration.git (fetch)
+heroku	https://git.heroku.com/life-game-registration.git (push)
   ```
+  * You need to be authorized to be able to push to this remote.
+  * In `register2` directory, run `make deploy`.
