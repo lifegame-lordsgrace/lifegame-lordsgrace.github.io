@@ -23,6 +23,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
           <span class="card-title">Map and Location 营地地址</span>
           <p>GPS address 营地地址:</p>
           <p><a href="https://maps.google.com/?saddr=Current+Location&daddr=3100%20Bean%20Creek%20Road,Scotts%20Valley,California&dirflg=d">3100 Bean Creek Rd, Scotts Valley, CA 95066</a></p>
+          <p>营地网址: <a href="http://campredwoodglen.salvationarmy.org/">Redwood Glen Conference Center in Scotts Valley</a><p/>
         </div>
       </div>
     </div>
