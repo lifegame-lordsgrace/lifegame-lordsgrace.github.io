@@ -11,7 +11,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
 <div class="divider"></div>
 
 <div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=nvr8L8eXqiU" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nvr8L8eXqiU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
 
 <div class="divider"></div>
