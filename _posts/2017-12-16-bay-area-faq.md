@@ -11,7 +11,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
 <div class="divider"></div>
 
 <div class="video-container">
-  <iframe width="560" height="315" src="https://youtu.be/nvr8L8eXqiU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=nvr8L8eXqiU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="divider"></div>
@@ -24,7 +24,7 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
           <p>GPS address 营地地址:</p>
           <p><a href="https://maps.google.com/?saddr=Current+Location&daddr=3100%20Bean%20Creek%20Road,Scotts%20Valley,California&dirflg=d">3100 Bean Creek Rd, Scotts Valley, CA 95066</a></p>
           <p>营地网址:</p>
-          <p><a href="http://campredwoodglen.salvationarmy.org/">Redwood Glen Conference Center in Scotts Valley</a>
+          <p><a href="http://campredwoodglen.salvationarmy.org/">Redwood Glen Conference Center in Scotts Valley</a><p/>
         </div>
       </div>
     </div>
@@ -54,24 +54,3 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
     </div>
   </div>
 </div>
-
-<!-- <div class="divider"></div>
-<div class="section">
-  <h5>Facilities 营会设施</h5>
-  <div class="row">
-    <div class="col s12 m6">
-      <div class="card">
-        <div class="card-image">
-          <img src="/blog/MS-FacilityMap.png">
-        </div>
-        <div class="card-content">
-          <p>Meals will be served in Dining Room (2). Most of campers will stay in Laurel Lodge (3). All the camp sessions will be held in Worship Center (1).</p>
-          <p>营会将在Dining Room (图标2) 用餐。大多数营会会员将住在Laurel Lodge (图标3)。所有营会室内活动将在Worship Center (图标1) 进行。</p>
-        </div>
-        <div class="card-action">
-          <a href="http://www.missionsprings.com/facilities">Mission Springs Facilities 查看营会设施详情</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
