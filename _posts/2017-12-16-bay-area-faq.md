@@ -8,11 +8,11 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
 
 各位好朋友们, 大家都预备好了吗? 期待在营会中与你的相遇!
 
-<div class="divider"></div>
+<!-- <div class="divider"></div>
 
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/nvr8L8eXqiU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+</div> -->
 
 <div class="divider"></div>
 <div class="section">
