@@ -5,6 +5,8 @@
   "proxy": "http://localhost:5000/",
   "dependencies": {
     "dot-prop-immutable": "1.4.0",
+    "google-oauth-jwt": "^0.2.0",
+    "googleapis": "^23.0.0",
     "material-ui": "0.20.0",
     "react": "16.1.1",
     "react-dom": "16.1.1",
