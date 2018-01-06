@@ -77,7 +77,9 @@ class PersonalInfoForm extends Component {
               <MenuItem value={0} primaryText="慕道友" />
             </SelectField>
           <h4>联络方式 Contact infomation</h4>
-          <PhotoUploadForm />
+          <PhotoUploadForm
+            photo={this.props.photo}
+            onFileSelected={(file) => {this.props.onUploadPhoto(file);}} />
           <RaisedButton
             label="submit"
             primary={true}
@@ -89,12 +91,14 @@ class PersonalInfoForm extends Component {
 
 PersonalInfoForm.propTypes = {
   form: PropTypes.object,
+  photo: PropTypes.object,
   onUpdateChineseName: PropTypes.func,
   onUpdateEnglishFirstName: PropTypes.func,
   onUpdateEnglishLastName: PropTypes.func,
   onUpdateAge: PropTypes.func,
   onUpdateGender: PropTypes.func,
   onUpdateReligionStatus: PropTypes.func,
+  onUploadPhoto: PropTypes.func,
   onSubmitForm: PropTypes.func,
 }
 
