@@ -74,6 +74,19 @@ app.
   npm start
   ```
 
+## Configure Environment Variable
+
+Environment variables can be accessed by calling `process.env.NAME_OF_YOUR_ENVIRONMENT_VARIABLE`. Defining them is differnet between your dev and production environment.
+
+### Local
+
+* Create a file under `register2` directory named `.env`
+* Add environment variables in the format of `KEY=VALUE`, e.g. `TEST_KEY=123` will assign `TEST_KEY` value of `123`. All the values are treated as string type when loaded in the application.
+* `.env` file is git-ignored on default since it might contain sensitive data like your api token. Please do not check in this file.
+
+### Production
+* 	Please refer to [Heroku doc](https://devcenter.heroku.com/articles/nodejs-support#environment-variables).
+
 ## Deploy
 
   * You need to update your git configuration to be able to push to the Heroke remote.
