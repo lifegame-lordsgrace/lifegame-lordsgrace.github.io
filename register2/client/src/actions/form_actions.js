@@ -1,4 +1,5 @@
 const API_SUBMIT_FORM = '/api/form';
+const API_UPLOAD_PHOTO = '/api/photo';
 
 export const updateChineseName = (chineseName) => {
   return {
@@ -77,6 +78,43 @@ export const successSubmitForm = () => {
 export const failSubmitForm = (errorMessage) => {
   return {
     type: 'failSubmitForm',
-    errorMessage: errorMessage,
+    errorMessage,
   };
+}
+
+export const uploadPhoto = (file) => (dispatch, getState) => {
+  dispatch(startUploadPhoto());
+  const formData = new FormData();
+  formData.append('avatar', file);
+  return fetch(
+      API_UPLOAD_PHOTO,
+      {
+        method: 'POST',
+        body: formData,
+      })
+    .then((response) => {
+      return response.json();
+    }).then((responseJson) => {
+      dispatch(successUploadPhoto(responseJson.url));
+    }).catch((error) => {dispatch(failUploadPhoto(error));});
+}
+
+export const startUploadPhoto = () => {
+  return {
+    type: 'startUploadPhoto',
+  };
+}
+
+export const successUploadPhoto = (uploadedUrl) => {
+  return {
+    type: 'successUploadPhoto',
+    uploadedUrl,
+  };
+}
+
+export const failUploadPhoto = (errorMessage) => {
+  return {
+    type: 'failUploadPhoto',
+    errorMessage,
+  }
 }

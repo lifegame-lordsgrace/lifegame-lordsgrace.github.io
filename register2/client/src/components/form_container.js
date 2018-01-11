@@ -20,6 +20,7 @@ class FormContainer extends Component {
         </h1>
         <FormTabs
           form={this.props.form}
+          photo={this.props.photo}
           onUpdateChineseName={(newName) =>
             {this.props.formActions.updateChineseName(newName);}}
           onUpdateEnglishFirstName={(newName) =>
@@ -33,6 +34,7 @@ class FormContainer extends Component {
             {this.props.formActions.updateMarriageStatus(marriageStatus);}}
           onUpdateReligionStatus={(religionStatus) =>
             {this.props.formActions.updateReligionStatus(religionStatus);}}
+          onUploadPhoto={(file) => {this.props.formActions.uploadPhoto(file);}}
           onSubmitForm={() => {this.props.formActions.submitForm();}}
         />
       </div>
@@ -43,6 +45,7 @@ class FormContainer extends Component {
 function mapStateToProps(state, prop) {
   return {
     form: state.form.inputs,
+    photo: state.form.photo,
   };
 }
 

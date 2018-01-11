@@ -19,6 +19,9 @@ const DEFAULT_STATE = {
     marrigeStatusError: "",
     religionStatusError: "",
   },
+  photo: {
+    url: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+  }
 };
 
 export default(state = DEFAULT_STATE, payload) => {
@@ -41,6 +44,9 @@ export default(state = DEFAULT_STATE, payload) => {
     case 'updateReligionStatus':
       return dotProp.set(
           state, 'inputs.religionStatus', payload.religionStatus);
+    case 'successUploadPhoto':
+      return dotProp.set(
+          state, 'photo.url', payload.uploadedUrl);
     default:
       return state;
   }

@@ -42,6 +42,7 @@ class FormTabs extends Component {
           </div>
           <PersonalInfoForm
             form={this.props.form}
+            photo={this.props.photo}
             onUpdateChineseName={(newName) =>
               this.props.onUpdateChineseName(newName)}
             onUpdateEnglishLastName={(newName) =>
@@ -54,6 +55,7 @@ class FormTabs extends Component {
               {this.props.onUpdateMarriageStatus(marriageStatus);}}
             onUpdateReligionStatus={(religionStatus) =>
               {this.props.onUpdateReligionStatus(religionStatus);}}
+            onUploadPhoto={(file) => {this.props.onUploadPhoto(file);}}
             onSubmitForm={() => {this.props.onSubmitForm();}}
           />
           <PaymentForm />
@@ -65,6 +67,7 @@ class FormTabs extends Component {
 
 FormTabs.propTypes = {
   form: PropTypes.object,
+  photo: PropTypes.object,
   onUpdateChineseName: PropTypes.func,
   onUpdateEnglishFirstName: PropTypes.func,
   onUpdateEnglishLastName: PropTypes.func,
@@ -72,6 +75,7 @@ FormTabs.propTypes = {
   onUpdateAge: PropTypes.func,
   onUpdateMarriageStatus: PropTypes.func,
   onUpdateReligionStatus: PropTypes.func,
+  onUploadPhoto: PropTypes.func,
   onSubmitForm: PropTypes.func,
 }
 
