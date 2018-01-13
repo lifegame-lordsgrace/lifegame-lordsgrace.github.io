@@ -21,3 +21,9 @@ date: 2017-12-20
 <div class="video-container">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/To5eZ9O7fPU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </div>
+
+<div class="divider"></div>
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/doDo61Z6p7M?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  </div>

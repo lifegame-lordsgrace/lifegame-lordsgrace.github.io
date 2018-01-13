@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.post("/api/form", (req, res) => {
-  // console.log(req.body);
+  console.log(req.body);
   // This will print the following result:
   //{ chineseName: 'asdf',
   //  englishFirstName: '',
