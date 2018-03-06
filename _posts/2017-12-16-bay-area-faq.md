@@ -41,12 +41,10 @@ Below are instructions to get you ready for the camp 下面是营会前你需要
     <div class="col s12 m10">
       <div class="card blue-grey darken-1">
           <span class="card-title">What to bring 携带物品</span>
-          <ul class="card-panel teal">
-            <li class="collection-item">For Double Room, please bring personal hygiene items like toothbrush, toothpaste, shampoo, towels</li>
-            <li class="collection-item">如您选住双人间，请自带盥洗用具(牙刷, 牙膏，洗发水, 浴巾等等)</li>
-            <li class="collection-item">For Dorm Room, in addition to personal hygiene items, please note that bed linens are not provided. You should bring your own bed linen, pillow, blanket or sleeping bed</li>
-            <li class="collection-item">如您选住多人间，请自带盥洗用具外，您还需自备床单，枕头，被毯或睡袋</li>
-          </ul>
+          <p>For Double Room, please bring personal hygiene items like toothbrush, toothpaste, shampoo, towels</p>
+          <p>如您选住双人间，请自带盥洗用具(牙刷, 牙膏，洗发水, 浴巾等等)</p>
+          <p>For Dorm Room, in addition to personal hygiene items, please note that bed linens are not provided. You should bring your own bed linen, pillow, blanket or sleeping bed</p>
+          <p>如您选住多人间，请自带盥洗用具外，您还需自备床单，枕头，被毯或睡袋</p>
       </div>
     </div>
   </div>
