@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Ready for LIFEgame&trade; 2018 Bay Area"
-date: 2018-03-05
+date: 2017-12-16
 ---
 
 Dear LIFEgame participants, we want to welcome all of you to a retreat like no other. In this game, you will experience the reality of life but you may choose to live any way you like. You will be exhausted because you will live your entire life in three days. I encourage you not to quit but play until the end because life may take surprising turns. If you do, you will gain life lessons that would change the rest of your life.
