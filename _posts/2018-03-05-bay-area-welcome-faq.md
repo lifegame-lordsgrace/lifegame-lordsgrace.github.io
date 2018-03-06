@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LIFEgame&trade; 2018 Bay Area: FAQ"
+title: "Getting Ready for LIFEgame&trade; 2018 Bay Area"
 date: 2018-03-05
 ---
 
@@ -47,7 +47,6 @@ Below are instructions to get you ready for the camp 下面是营会前你需要
             <li class="collection-item">For Dorm Room, in addition to personal hygiene items, please note that bed linens or towels are not provided. You should bring your own bed linen, towel, pillow, blanket or sleeping bed</li>
             <li class="collection-item">如您选住多人间，请自带盥洗用具外，您还需自备床单，浴巾，枕头，被毯或睡袋</li>
           </ul>
-        </div>
       </div>
     </div>
   </div>
