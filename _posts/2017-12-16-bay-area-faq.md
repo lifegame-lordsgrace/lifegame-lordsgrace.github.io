@@ -1,18 +1,14 @@
 ---
 layout: post
-title: "LIFEgame&trade; 2018 Bay Area: FAQ"
-date: 2017-12-16
+title: "Getting Ready for LIFEgame&trade; 2018 Bay Area"
+date: 2018-03-05
 ---
 
-Dear LIFEgame participants, are you ready for a life-changing experience, as it has been for many thousands of people who have played the game before? We can't wait to meet you at the camp.
+Dear LIFEgame participants, we want to welcome all of you to a retreat like no other. In this game, you will experience the reality of life but you may choose to live any way you like. You will be exhausted because you will live your entire life in three days. I encourage you not to quit but play until the end because life may take surprising turns. If you do, you will gain life lessons that would change the rest of your life.
 
-各位好朋友们, 大家都预备好了吗? 期待在营会中与你的相遇!
+亲爱的生命冲击营参与者，欢迎你们来到一个与众不同的营会。在这场游戏，你将体验到真实的生活，但你可以选择以任何你喜欢的方式生活。你会筋疲力尽，因为你将在三天内度过你的整个人生。我鼓励你不要放弃，要玩到最后，因为生活可能会出现令人惊讶的转折。如果你这样做，你会获得宝贵的生命经验，这将改变你未来的人生。
 
-<!-- <div class="divider"></div>
-
-<div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nvr8L8eXqiU?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</div> -->
+Below are instructions to get you ready for the camp 下面是营会前你需要准备的说明：
 
 <div class="divider"></div>
 <div class="section">
@@ -44,11 +40,13 @@ Dear LIFEgame participants, are you ready for a life-changing experience, as it 
   <div class="row">
     <div class="col s12 m10">
       <div class="card blue-grey darken-1">
-        <div class="card-content white-text">
           <span class="card-title">What to bring 携带物品</span>
-          <p>Personal hygiene items like toothbrush, toothpaste, shampoo</p>
-          <p>盥洗用具(牙刷, 牙膏，洗发水等等)</p>
-        </div>
+          <ul class="collection">
+            <li class="collection-item">For Double Room, please bring personal hygiene items like toothbrush, toothpaste, shampoo</li>
+            <li class="collection-item">如您选住双人间，请自带盥洗用具(牙刷, 牙膏，洗发水等等)</li>
+            <li class="collection-item">For Dorm Room, in addition to personal hygiene items, please note that bed linens or towels are not provided. You should bring your own bed linen, towel, pillow, blanket or sleeping bed</li>
+            <li class="collection-item">如您选住多人间，请自带盥洗用具外，您还需自备床单，浴巾，枕头，被毯或睡袋</li>
+          </ul>
       </div>
     </div>
   </div>
