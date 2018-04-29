@@ -27,8 +27,8 @@ For High School seniors, are you sure about your college major? For college stud
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
           <span class="card-title">Camp Date (Memorial Day Weekend)</span>
-          <p>Start 1:00 PM Saturday, May 26, 2018</p>
-          <p>Finish 2:00 PM Monday, May 28, 2018</p>
+          <p>Start: 1:00 PM Saturday, May 26, 2018</p>
+          <p>Finish: 2:00 PM Monday, May 28, 2018</p>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@ For High School seniors, are you sure about your college major? For college stud
     <div class="col s12 m10">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title"><a href="https://www.cognitoforms.com/CCEM1/CareerGame">REGISTER</a> NOW:$100 for each participant</span>
+          <span class="card-title"><a href="https://www.cognitoforms.com/CCEM1/CareerGame">REGISTER</a> NOW: only $100 for each participant!</span>
         </div>
       </div>
     </div>
