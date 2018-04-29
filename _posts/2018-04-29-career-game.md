@@ -28,7 +28,7 @@ For High School seniors, are you sure about your college major? For college stud
         <div class="card-content white-text">
           <span class="card-title">Camp Date (Memorial Day Weekend)</span>
           <p>Start: 1:00 PM Saturday, May 26, 2018</p>
-          <p>Finish: 2:00 PM Monday, May 28, 2018</p>
+          <p>Finish: 1:00 PM Monday, May 28, 2018</p>
         </div>
       </div>
     </div>
