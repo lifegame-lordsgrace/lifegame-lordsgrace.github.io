@@ -4,9 +4,9 @@ title: "Registration for CAREERgame&trade; 2018 Bay Area"
 date: 2018-04-29
 ---
 
-身為大學生丶或是剛畢業丶正在找工作的朋友們，你們有沒有為了選擇一個適合的專業和職業而煩惱呢？CAREERgame&trade是一個為了讓你感受一下在模擬職場與社會中追尋夢想與選擇一份穩定工作的過程。透過這次營會，你會有所領悟和收穫，也能讓你更有信心地面對真實的職場，充分了解你自己的潛能與天賦。誠摯地邀請你與你的朋友來參加！歡迎現任和準大學生（16-22歲）5月26日 星期六 下午1時入營 5月28日 星期一 下午2時結束。
+身為大學生丶或是剛畢業丶正在找工作的朋友們，你們有沒有為了選擇一個適合的專業和職業而煩惱呢？CAREERgame&trade;是一個為了讓你感受一下在模擬職場與社會中追尋夢想與選擇一份穩定工作的過程。透過這次營會，你會有所領悟和收穫，也能讓你更有信心地面對真實的職場，充分了解你自己的潛能與天賦。誠摯地邀請你與你的朋友來參加！歡迎現任和準大學生（16-22歲）5月26日 星期六 下午1時入營 5月28日 星期一 下午2時結束。
 
-For High School seniors, are you sure about your college major? For college students, are you still having an undeclared major? For new college graduates, are you certain about what you are pursuing right now? Are you struggling with future career decisions? CCEM will be hosting CAREERgame&trade, where a virtual city simulation allows you to discover the transitional process from student life to a career life in the society, and explore the marketplace and experience life ahead.
+For High School seniors, are you sure about your college major? For college students, are you still having an undeclared major? For new college graduates, are you certain about what you are pursuing right now? Are you struggling with future career decisions? CCEM will be hosting CAREERgame&trade;, where a virtual city simulation allows you to discover the transitional process from student life to a career life in the society, and explore the marketplace and experience life ahead.
 
 <div class="divider"></div>
 <div class="section">
@@ -37,11 +37,7 @@ For High School seniors, are you sure about your college major? For college stud
     <div class="col s12 m10">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">Register NOW!</span>
-          <div class="card-panel teal">
-            <p>$100 for each participant</p>
-            <p>https://www.cognitoforms.com/CCEM1/CareerGame</p>
-          </div>
+          <span class="card-title"><a href="https://www.cognitoforms.com/CCEM1/CareerGame">REGISTER</a> NOW:$100 for each participant</span>
         </div>
       </div>
     </div>
